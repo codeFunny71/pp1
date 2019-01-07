@@ -28,12 +28,12 @@ include 'functions.php';
         echo "<br>";
         printArr($numbers);
 
-
     ?>
     <br>
     <?php
         echo "Testing largest() function";
         echo "<br>";
+
         print_r(largest($numbers));
     ?>
     <br><br>
@@ -46,7 +46,8 @@ include 'functions.php';
     <?php
         echo "Testing removeDups() function";
         echo "<br>";
-        print_r(removeDups($numbers));
+        //removeDups($numbers);
+        printArr(removeDups($numbers));
     ?>
     <br><br>
     <?php
